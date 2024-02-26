@@ -30,7 +30,13 @@ body {
 .menu1 li:last-child {
     border-left: 1px solid grey;
 }
-
+.border{
+    border-right: 1px solid grey;
+    padding-right: 10px;
+}
+#padding{
+    padding: 0 10px 0 0;
+}
 .menu1 li a{
     color: grey;
 }
@@ -164,12 +170,13 @@ li{
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    
 }
 
 .boton {
     display: inline-block;
-    padding: 10px;
-    margin: 10px;
+    padding: 15px;
+    margin: 15px;
     font-family: "Oswald", sans-serif;
 }
 
@@ -293,4 +300,30 @@ footer i,
 
 .cursor{
     cursor: pointer;
+}
+.imagen-tabla{
+    width: 65px;    
+}
+table,tr,th,td{
+    border: 1px solid rgb(8, 57, 122);
+}
+caption{
+    color: #004987;
+    font-size: 52px;
+}
+td{
+    text-align: center;    
+}
+td img{
+    padding-top: 0%;
+    padding-bottom: 0%;
+    
+}
+form{
+    background-color: rgb(221, 227, 231);
+    color: rgb(8, 57, 122);
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    
 }
